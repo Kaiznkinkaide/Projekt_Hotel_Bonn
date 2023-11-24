@@ -334,7 +334,7 @@ footer {
 
 
     header {
-        height: 50svh;
+        height: 55svh;
         gap: 2.5vh;
     }
 
@@ -352,7 +352,7 @@ footer {
     }
 
     .explore {
-        height: 50svh;
+        height: 45svh;
 
     }
 
@@ -417,10 +417,13 @@ footer {
     .mitte,
     .rechts,
     .links {
-
         text-align: center;
         margin: 5vh;
         padding: 0;
+    }
+
+    .links a {
+        margin-bottom: 5vh;
     }
 
     .rechts input,
