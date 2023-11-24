@@ -194,17 +194,12 @@ nav a:hover {
     padding: 2vh;
 }
 
-
-
-
-
 .twin {
     grid-area: twin;
     background-image: url("../img/standard_twin_room.png");
 }
 
 .standard {
-
     grid-area: standard;
     background-image: url("../img/standard_room.png");
 
@@ -329,6 +324,7 @@ footer {
 }
 
 .rechts a {
+
     text-align: center;
 }
 
@@ -337,30 +333,104 @@ footer {
 @media only screen and (max-width: 800px) {
 
 
-    .logo img {
-        height: 17.5vh;
+    header {
+        height: 50svh;
+        gap: 2.5vh;
     }
 
-
+    .logo img {
+        height: 17.5vh;
+        margin: 0;
+    }
 
     nav {
         display: flex;
-        width: 60%;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vh;
     }
 
+    .explore {
+        height: 50svh;
 
+    }
 
+    .explore h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
 
+    .explore p {
+        font-size: 1rem;
+    }
 
+    .facilities h2 {
+        font-size: 3.25rem;
+    }
+
+    .icons {
+        gap: 2vh;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .roomsHeadline h2 {
+        font-size: 3.25rem;
+    }
+
+    .roomsFrame {
+        grid-template:
+            "twin" 1fr
+            "standard" 1fr
+            "view" 1fr
+            "deluxe" 1fr / 1fr
+    }
+
+    .twin,
+    .standard,
+    .view,
+    .deluxe {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .roomsFrame p {
+        font-size: 2.5rem;
+    }
 
     footer {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    .links {
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin: 0;
+    }
 
+    .mitte,
+    .rechts,
+    .links {
 
+        text-align: center;
+        margin: 5vh;
+        padding: 0;
+    }
 
+    .rechts input,
+    .rechts a {
+        width: 70vw;
+        padding: 2vh;
+        border-radius: 5px;
+    }
 
+    .rechts input::placeholder {
+        text-align: center;
+    }
 }
