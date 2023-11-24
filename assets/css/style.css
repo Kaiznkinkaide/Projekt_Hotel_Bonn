@@ -40,6 +40,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #b48031;
+    text-shadow: #FC0 1px 0 10px;
+
+}
+
 .explore {
     width: 100%;
     height: 80vh;
