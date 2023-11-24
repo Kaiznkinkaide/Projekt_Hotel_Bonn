@@ -35,7 +35,7 @@ nav {
 nav a {
     color: #957554;
     font-family: "Ubuntu";
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -63,31 +63,25 @@ nav a:hover {
 
 .explore h1 {
     color: #FFF;
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     font-size: 80px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin-top: 15%;
 }
 
 .untertietel {
     color: #FFF;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-style: normal;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
     font-weight: 500;
-    line-height: normal;
 }
 
 
 .buttonStyle {
     color: #FFF;
     font-family: "Ubuntu";
-    font-size: 24px;
-    font-style: normal;
+    font-size: 1.5rem;
     font-weight: 500;
-    line-height: normal;
     text-decoration: none;
     background-color: #DFAA5B;
     border-radius: 5px;
@@ -112,7 +106,7 @@ nav a:hover {
 .facilitiesHeadline {
     color: #957554;
     font-family: "Ubuntu";
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight: 500;
     margin: 5vh;
 }
@@ -128,11 +122,9 @@ nav a:hover {
 .icons p {
     margin-top: 3vh;
     color: #957554;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-style: normal;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: normal;
     text-align: center;
 }
 
@@ -145,11 +137,9 @@ nav a:hover {
 
 .roomsHeadline {
     color: #957554;
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     font-size: 45px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin: 10vh 0;
 }
 
@@ -183,10 +173,8 @@ nav a:hover {
 .roomsFrame p {
     color: #FFF;
     font-family: "Ubuntu";
-    font-size: 40px;
-    font-style: normal;
+    font-size: 2.5rem;
     font-weight: 500;
-    line-height: normal;
 }
 
 .checkButton {
@@ -227,10 +215,9 @@ nav a:hover {
     color: #957554;
     text-align: center;
     font-family: "Ubuntu";
-    font-size: 45px;
-    font-style: normal;
+    font-size: 2.813rem;
     font-weight: 500;
-    line-height: normal;
+
 }
 
 .bookButton {
@@ -258,10 +245,8 @@ footer {
 .kontaktInfo {
     color: #FFF;
     font-family: Ubuntu;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 1.5rem;
     font-weight: 300;
-    line-height: normal;
     gap: 1vh;
 }
 
@@ -280,11 +265,9 @@ footer {
 .mitte a {
 
     color: #FFF;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-style: normal;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: normal;
     text-decoration: none;
 }
 
@@ -298,11 +281,9 @@ footer {
 
 .rechts p {
     color: #FFF;
-    font-family: Ubuntu;
-    font-size: 30px;
-    font-style: normal;
+    font-family: "Ubuntu";
+    font-size: 1.875rem;
     font-weight: 500;
-    line-height: normal;
 }
 
 .rechts input,
@@ -317,10 +298,8 @@ footer {
     padding-left: 1vw;
     color: rgba(0, 0, 0, 0.50);
     font-family: "Ubuntu";
-    font-size: 24px;
-    font-style: normal;
+    font-size: 1.5rem;
     font-weight: 300;
-    line-height: normal;
 }
 
 .rechts a {
@@ -436,4 +415,5 @@ footer {
     .rechts input::placeholder {
         text-align: center;
     }
+
 }
