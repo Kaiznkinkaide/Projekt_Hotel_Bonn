@@ -331,3 +331,36 @@ footer {
 .rechts a {
     text-align: center;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .logo img {
+        height: 17.5vh;
+    }
+
+
+
+    nav {
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+}
